@@ -3,7 +3,7 @@
     public class Matrix
     {
         private int[,] data;
-        public Matrix(int[,] arr)
+        public Matrix(int[,] arr)//конструктор
         {
             data = arr;
         }
@@ -19,7 +19,7 @@
                 return sum;
             }
         }
-        public double Rmeansquare
+        public double Rmeansquare//метод для знаходження середньоквадратичного значення
         {
             get
             {
